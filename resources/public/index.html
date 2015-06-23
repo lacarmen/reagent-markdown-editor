@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>markdown-clj</title>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/united/bootstrap.min.css">
+    <style type="text/css">
+        body {
+            background-color: #fafafa;
+        }
+        h1.header {
+            margin-top: 0;
+            padding: 20px;
+            background-color: #4db6ac;
+            color: #fff;
+            -webkit-box-shadow: rgba(0, 0, 0, 0.156863) 0 2px 5px 0, rgba(0, 0, 0, 0.117647) 0 2px 10px 0;
+            box-shadow: rgba(0, 0, 0, 0.156863) 0 2px 5px 0, rgba(0, 0, 0, 0.117647) 0 2px 10px 0;
+        }
+        textarea {
+            resize: vertical;
+            min-height: 400px;
+        }
+        pre, code.hljs {
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+<div id="editor"></div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/languages/clojure.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+<script src="js/compiled/app.js"></script>
+<script>reagent_markdown_preview.core.main();</script>
+</body>
+</html>
+
