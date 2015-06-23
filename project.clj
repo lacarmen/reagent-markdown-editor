@@ -18,7 +18,7 @@
 
             :cljsbuild {:builds [{:source-paths ["src/cljs"]
                                   :figwheel     {:on-jsload "reagent-markdown-preview.core/main"}
-                                  :compiler     {:optimizations :advanced
+                                  :compiler     {;:optimizations :advanced
                                                  :main       reagent-markdown-preview.core
                                                  :output-to  "resources/public/js/compiled/editor.js"
                                                  :output-dir "resources/public/js/compiled/out"
