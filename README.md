@@ -2,6 +2,10 @@
 
 A simple Markdown editor using Reagent.
 
+## Demo
+
+See the live demo [here](https://rawgit.com/lacarmen/reagent-markdown-editor/master/demo/editor.html)
+
 ## Running the project
 
 ```
