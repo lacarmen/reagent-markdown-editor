@@ -42,5 +42,5 @@
           [:h3 "Preview"]
           [preview content]]]]])))
 
-(defn ^:export main []
-  (reagent/render [page] (.getElementById js/document "editor")))
+(defn ^:export main [])
+  (reagent/render [page] (.getElementById js/document "editor"))
