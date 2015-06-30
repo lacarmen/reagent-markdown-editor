@@ -10,6 +10,7 @@ See the live demo [here](https://rawgit.com/lacarmen/reagent-markdown-editor/mas
 
 ```
 git clone https://github.com/lacarmen/reagent-markdown-editor.git
+cd reagent-markdown-editor
 lein figwheel
 ```
 
